@@ -33,7 +33,7 @@ sprites.onOverlap(SpriteKind.Enemy, SpriteKind.Player, function (sprite, otherSp
     info.changeLifeBy(-1)
     scene.cameraShake(4, 500)
 })
-info.onScore(20, function () {
+info.onScore(200, function () {
     game.gameOver(true)
 })
 let myRock: Sprite = null
